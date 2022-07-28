@@ -1,0 +1,19 @@
+fillScreen    (                color);  // 画面全体の塗り潰し
+drawPixel     ( x, y         , color);  // 点
+drawFastVLine ( x, y   , h   , color);  // 垂直線
+drawFastHLine ( x, y, w      , color);  // 水平線
+drawRect      ( x, y, w, h   , color);  // 矩形の外周
+fillRect      ( x, y, w, h   , color);  // 矩形の塗り
+drawRoundRect ( x, y, w, h, r, color);  // 角丸の矩形の外周
+fillRoundRect ( x, y, w, h, r, color);  // 角丸の矩形の塗り
+drawCircle    ( x, y      , r, color);  // 円の外周
+fillCircle    ( x, y      , r, color);  // 円の塗り
+drawEllipse   ( x, y, rx, ry , color);  // 楕円の外周
+fillEllipse   ( x, y, rx, ry , color);  // 楕円の塗り
+drawLine      ( x0, y0, x1, y1        , color); // ２点間の直線
+drawTriangle  ( x0, y0, x1, y1, x2, y2, color); // ３点間の三角形の外周
+fillTriangle  ( x0, y0, x1, y1, x2, y2, color); // ３点間の三角形の塗り
+drawBezier    ( x0, y0, x1, y1, x2, y2, color); // ３点間のベジエ曲線
+drawBezier    ( x0, y0, x1, y1, x2, y2, x3, y3, color); // ４点間のベジエ曲線
+drawArc       ( x, y, r0, r1, angle0, angle1, color);   // 円弧の外周
+fillArc       ( x, y, r0, r1, angle0, angle1, color);   // 円弧の塗り
